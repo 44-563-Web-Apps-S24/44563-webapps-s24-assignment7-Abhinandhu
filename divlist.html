@@ -2,19 +2,18 @@
 <html> <head> <style>
     .flex-container {
       display: flex;  flex-direction:row;
-      background-color:blue;
+      background-color:rgb(234, 193, 31);
   }
 
-.flex-container > div {  /*div children of the flex container*/
-  background-color: #f1f1f1; 
+.flex-container > div { 
+  background-color: #d10c86; 
   margin: 10px;  padding: 20px;  font-size: 30px;
 }
 
-/* Responsive layout */
 @media (max-width: 600px) { 
 	 .flex-container{
 		 flex-direction:column;
-		 background-color: green;
+		 background-color: rgb(74, 200, 74);
 	  }
 	}
 </style>
@@ -24,11 +23,11 @@
 
 
 <body>
-	<h2>Brady Cruickshank builds list with divs</h2>
+	<h2>Abhinandhu builds list with divs</h2>
 		<div class="flex-container" id="target">
-		  <div class="divlist">row item 1</div>   
-		  <div class="divlist">row item 2</div>  
-		  <div class="divlist">row item 3</div>  
+		  <div class="divlist">Row1</div>   
+		  <div class="divlist">Row2</div>  
+		  <div class="divlist">Row3</div>  
 		</div>
 	
 	<p> Press the button to create an new element of type div and then add it to the container.
@@ -42,13 +41,13 @@
 </body>
 <script>
 	function makeNewDiv() {
-		/* make the div and its text */
+
 		let element = document.createElement("div")
 		element.innerHTML = document.getElementById("in").value
 		element.style.className = "divlist"
 		element.style.color = "orange"
 
-		/* add it to the container */
+
 		let container = document.getElementById('target')
 		container.appendChild(element)
 		
@@ -67,7 +66,7 @@
 		element.style.className = "divlist"
 		element.style.color = "orange"
 
-		/* add it to the container */
+
 		let container = document.getElementById('target')
 		container.insertBefore(element, container.firstChild)
 	}
