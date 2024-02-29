@@ -2,6 +2,6 @@
 # WebApps-S24-Assignment-7
 An assignment on java script modifying the DOM and using anonymous callback functions.
 Hosted at:
-money: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-Abhinandhu/money.htmnl
-divlist: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-Abhinandhu/divlist.htmnl
+money: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-Abhinandhu/money.html
+divlist: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-Abhinandhu/divlist.html
 precision: https://44-563-web-apps-s24.github.io/44563-webapps-s24-assignment7-Abhinandhu/precision.html
